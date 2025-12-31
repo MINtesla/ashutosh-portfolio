@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ashutosh — Portfolio</title>
+  <meta name="description" content="Ashutosh's portfolio — projects, resume and contact." />
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Ashutosh</a>
+      <nav id="nav" class="nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-controls">
+        <button id="themeToggle" aria-label="Toggle theme">🌙</button>
+        <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Hi — I'm Ashutosh</h1>
+          <p class="lead">Frontend & Full-stack developer building accessible, performant web experiences.</p>
+          <p class="hero-cta">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Get in touch</a>
+          </p>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <div class="avatar">A</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <p>I'm a developer with experience in building modern web apps using JavaScript, React, Node, and static-first deployment practices. I enjoy clean UI, performance and developer ergonomics.</p>
+      <ul class="tech-list">
+        <li>JavaScript / TypeScript</li>
+        <li>React / Next / Vite</li>
+        <li>Node.js / Express</li>
+        <li>HTML / CSS / Accessibility</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>Selected Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Project One</h3>
+          <p>Short description of an interesting project. Add repo & live links below.</p>
+          <p class="proj-links">
+            <a href="#" target="_blank" rel="noopener">Live</a> · <a href="#" target="_blank" rel="noopener">Code</a>
+          </p>
+        </article>
+
+        <article class="project-card">
+          <h3>Project Two</h3>
+          <p>Short description of another project. Replace with your real content.</p>
+          <p class="proj-links">
+            <a href="#" target="_blank" rel="noopener">Live</a> · <a href="#" target="_blank" rel="noopener">Code</a>
+          </p>
+        </article>
+
+        <article class="project-card">
+          <h3>Project Three</h3>
+          <p>Another project card. Add screenshots or gifs in future revisions.</p>
+          <p class="proj-links">
+            <a href="#" target="_blank" rel="noopener">Live</a> · <a href="#" target="_blank" rel="noopener">Code</a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="resume" class="section container">
+      <h2>Resume</h2>
+      <p>You can download my resume here:</p>
+      <p><a class="btn" href="/ashu_resume.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a></p>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <p>If you'd like to work together or have questions, email me at <a href="mailto:you@example.com">you@example.com</a> or use the form below.</p>
+      <form id="contactForm" class="contact-form" action="mailto:you@example.com" method="post" enctype="text/plain">
+        <label>
+          Name
+          <input name="name" required>
+        </label>
+        <label>
+          Email
+          <input name="email" type="email" required>
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <p><button type="submit" class="btn">Send</button></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Ashutosh — Built with ❤️ · <a href="https://github.com/MINtesla/ashutosh-portfolio" target="_blank" rel="noopener">Source</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
